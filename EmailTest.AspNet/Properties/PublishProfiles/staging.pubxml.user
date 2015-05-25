@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\WSSSERVER02\c$\Inetpub\PreviewSites\Tests\EmailTestAspNet4</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>01/14/2015 13:08:05</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.UI.Combined.dll">
+      <publishTime>01/14/2015 13:08:05</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.AspNet.dll">
+      <publishTime>01/14/2015 13:08:07</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.Core.dll">
+      <publishTime>01/14/2015 13:08:06</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.Consumer.dll">
+      <publishTime>01/14/2015 13:08:06</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.dll">
+      <publishTime>01/14/2015 13:08:06</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.dll">
+      <publishTime>01/14/2015 13:08:07</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.RelyingParty.dll">
+      <publishTime>01/14/2015 13:08:07</publishTime>
+    </File>
+    <File Include="bin/EmailTest.AspNet.dll">
+      <publishTime>01/14/2015 16:15:12</publishTime>
+    </File>
+    <File Include="bin/EmailTest.AspNet.pdb">
+      <publishTime>01/14/2015 16:15:12</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>01/14/2015 13:08:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>01/14/2015 13:08:09</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Membership.OpenAuth.dll">
+      <publishTime>01/14/2015 13:08:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>11/27/2014 08:06:23</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>01/14/2015 13:08:05</publishTime>
+    </File>
+    <File Include="Content/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/amelia/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/amelia/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/amelia/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/amelia/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cerulean/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cerulean/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cerulean/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cerulean/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cosmo/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cosmo/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cosmo/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cosmo/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cyborg/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cyborg/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cyborg/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/cyborg/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/flatly/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/flatly/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/flatly/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/flatly/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/journal/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/journal/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/journal/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/journal/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/readable/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/readable/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/readable/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/readable/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/simplex/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/simplex/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/simplex/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/simplex/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/slate/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/slate/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/slate/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/slate/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/spacelab/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/spacelab/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/spacelab/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/spacelab/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/spruce/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/spruce/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/spruce/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/spruce/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/superhero/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/superhero/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/superhero/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/superhero/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/united/bootstrap-responsive.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/united/bootstrap-responsive.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/united/bootstrap.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/bootswatch/united/bootstrap.min.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/images/glyphicons-halflings-white.png">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/images/glyphicons-halflings.png">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="EmailSent.aspx">
+      <publishTime>01/14/2015 13:32:11</publishTime>
+    </File>
+    <File Include="EmailTest.aspx">
+      <publishTime>01/14/2015 13:29:40</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>01/14/2015 13:14:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/14/2015 16:15:19</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

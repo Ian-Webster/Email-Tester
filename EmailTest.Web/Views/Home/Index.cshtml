@@ -1,0 +1,110 @@
+﻿@model EmailTest.Web.Models.EmailVM
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>EmailVM</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email_To, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email_To)
+                @Html.ValidationMessageFor(model => model.Email_To)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email_From, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email_From)
+                @Html.ValidationMessageFor(model => model.Email_From)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email_Subject, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email_Subject)
+                @Html.ValidationMessageFor(model => model.Email_Subject)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email_Body, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email_Body)
+                @Html.ValidationMessageFor(model => model.Email_Body)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email_HtmlBody, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email_HtmlBody)
+                @Html.ValidationMessageFor(model => model.Email_HtmlBody)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Smtp_Server, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Smtp_Server)
+                @Html.ValidationMessageFor(model => model.Smtp_Server)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Smtp_Port, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Smtp_Port)
+                @Html.ValidationMessageFor(model => model.Smtp_Port)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Smtp_User, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Smtp_User)
+                @Html.ValidationMessageFor(model => model.Smtp_User)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Smtp_Pwd, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Smtp_Pwd)
+                @Html.ValidationMessageFor(model => model.Smtp_Pwd)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UseSSL, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UseSSL)
+                @Html.ValidationMessageFor(model => model.UseSSL)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
