@@ -12,11 +12,7 @@ namespace EmailTest.Web.Controllers
     {
         public ActionResult Index()
         {
-            EmailVM email = new EmailVM()
-            {
-                Email_To = "ian@fusioninternetsolutions.com",
-                Email_From = "tim@fusioninternetsolutions.com"
-            };
+            EmailVM email = new EmailVM();
             return View(email);
         }
 

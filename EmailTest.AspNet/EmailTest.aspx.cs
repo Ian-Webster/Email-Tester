@@ -12,11 +12,6 @@ namespace EmailTest.AspNet
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                txtEmailFrom.Text = "tim@fusioninternetsolutions.com";
-                txtEmailTo.Text = "ian@fusioninternetsolutions.com";
-            }
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
